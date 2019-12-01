@@ -1,0 +1,142 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "jsdoc", "import"],
+  "rules": {
+    "object-shorthand": [
+      "error",
+      "always",
+      { "avoidExplicitReturnArrows": true }
+    ],
+    "eol-last": "error",
+    "curly": ["error", "all"],
+    "guard-for-in": "error",
+    "indent": ["error", 2],
+    "no-labels": "error",
+    "max-len": ["error", { "code": 140 }],
+    "no-restricted-imports": ["error", { "paths": ["rxjs/Rx"] }],
+    "no-caller": "error",
+    "no-bitwise": "error",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-new-wrappers": "error",
+    "no-debugger": "error",
+    "constructor-super": "error",
+    "no-eval": "error",
+    "no-empty": "warn",
+    "no-shadow": "error",
+    "no-throw-literal": "error",
+    "no-fallthrough": "error",
+    "no-trailing-spaces": "error",
+    "no-undef-init": "error",
+    "no-unused-expressions": "error",
+    "no-var": "error",
+    "brace-style": ["error", "1tbs"],
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "radix": "error",
+    "semi": ["error", "always"],
+    "eqeqeq": ["error", "smart"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true,
+        "consistent": true
+      }
+    ],
+    "object-property-newline": [
+      "error",
+      { "allowAllPropertiesOnSameLine": true }
+    ],
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-newline": ["error", { "multiline": true }],
+    "array-bracket-spacing": ["error", "never"],
+    "array-element-newline": ["error", "consistent"],
+    "no-underscore-dangle": "error",
+    "getter-return": "error",
+    "no-dupe-args": "error",
+    "no-duplicate-imports": "error",
+    "no-dupe-keys": "error",
+    "no-dupe-class-members": "error",
+    "dot-location": ["error", "property"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": "error",
+    "lines-around-comment": ["error", { "beforeLineComment": true }],
+    "multiline-comment-style": ["error", "starred-block"],
+    "no-lonely-if": "error",
+    "prefer-template": "error",
+    "@typescript-eslint/prefer-function-type": "error",
+    "@typescript-eslint/restrict-plus-operands": "error",
+    "@typescript-eslint/class-name-casing": "error",
+    "@typescript-eslint/consistent-type-definitions": "error",
+    "@typescript-eslint/explicit-member-accessibility": "error",
+    "@typescript-eslint/member-ordering": "error",
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        "allowSingleExtends": false
+      }
+    ],
+    "@typescript-eslint/no-inferrable-types": "error",
+    "@typescript-eslint/no-misused-new": "error",
+    "@typescript-eslint/no-non-null-assertion": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "@typescript-eslint/type-annotation-spacing": "error",
+    "@typescript-eslint/unified-signatures": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "contexts": [
+          "ClassDeclaration",
+          "ClassExpression",
+          "ClassProperty",
+          "MethodDefinition",
+          "ArrowFunctionExpression",
+          "ExportNamedDeclaration",
+          "FunctionDeclaration",
+          "FunctionExpression",
+          "TSInterfaceDeclaration",
+          "TSTypeAliasDeclaration",
+          "TSEnumDeclaration"
+        ]
+      }
+    ],
+    "jsdoc/require-description-complete-sentence": [
+      "error",
+      { "tags": ["see", "copyright"] }
+    ],
+    "jsdoc/require-param": "error",
+    "jsdoc/require-param-name": "error",
+    "jsdoc/require-param-description": "error",
+    "jsdoc/require-returns": "error",
+    "jsdoc/require-returns-description": "error",
+    "jsdoc/check-tag-names": "error",
+    "jsdoc/no-types": "error",
+    "import/order": [
+      "error",
+      { "newlines-between": "always-and-inside-groups" }
+    ]
+  }
+}
