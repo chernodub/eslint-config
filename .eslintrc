@@ -179,7 +179,7 @@
       "error",
       { "allowAllPropertiesOnSameLine": true }
     ],
-    "one-var": "error",
+    "one-var": ["error", "never"],
     "operator-assignment": "error",
     "operator-linebreak": ["error", "after"],
     "prefer-exponentiation-operator": "error",
