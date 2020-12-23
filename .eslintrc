@@ -266,6 +266,7 @@
     "jsdoc/require-jsdoc": [
       "error",
       {
+        "publicOnly": true,
         "contexts": [
           "ClassDeclaration",
           "ClassExpression",
