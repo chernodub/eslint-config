@@ -212,7 +212,6 @@
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
     "no-array-constructor": "error",
     "no-class-assign": "error",
-    "no-confusing-arrow": "error",
     "no-duplicate-imports": "error",
     "no-dupe-class-members": "error",
     "no-this-before-super": "error",
