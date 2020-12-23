@@ -258,7 +258,11 @@
     ],
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures": "error",
-    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/explicit-function-return-type": [
+        "error", {
+        "allowExpressions": true
+      }
+    ],
     "jsdoc/require-jsdoc": [
       "error",
       {
