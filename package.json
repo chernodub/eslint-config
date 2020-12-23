@@ -1,12 +1,13 @@
 {
-  "name": "eslint-config-chernodub",
-  "version": "2.2.1",
+  "name": "@chernodub/eslint-config",
+  "version": "2.2.2",
   "description": "ESLint configuration for typescript.",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com/chernodub"
   },
   "repository": {
-    "url": "https://github.com/chernodub/eslint-config-chernodub.git"
+    "type": "git",
+    "url": "https://github.com/chernodub/eslint-config"
   },
   "main": "index.js",
   "scripts": {
