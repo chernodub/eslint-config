@@ -12,7 +12,7 @@
     "no-await-in-loop": "error",
     "no-compare-neg-zero": "error",
     "no-cond-assign": "error",
-    "no-console": ["error", { "allow": ["error", "error"] }],
+    "no-console": ["error", { "allow": ["error", "warn"] }],
     "no-constant-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
