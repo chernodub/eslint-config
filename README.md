@@ -5,7 +5,7 @@
 #### npm 6
 
 ```bash
-npm i @chernodub/eslint-config@2.2.3 \
+npm i @chernodub/eslint-config@latest \
       @typescript-eslint/eslint-plugin@4.11.0 \
       @typescript-eslint/parser@4.11.0 \
       eslint@7.16.0 eslint-plugin-import@2.22.1 \
@@ -14,9 +14,10 @@ npm i @chernodub/eslint-config@2.2.3 \
 
 #### npm 7
 
-`TODO` when node 16 appears
+`TODO` when node 16 appears, npm 7 introduced automated installation of peer dependencies
 
 ### Usage
+Then, create the `.eslintrc.json` in the directory of `package.json` and paste there the following
 
 ```json
 {
