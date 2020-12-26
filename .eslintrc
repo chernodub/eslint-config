@@ -281,7 +281,13 @@
       "error",
       { "tags": ["see", "copyright"] }
     ],
-    "jsdoc/require-param": "error",
+    "jsdoc/require-param":  [
+      "error", 
+      { 
+        "checkDestructured": false,
+        "enableFixer": false
+      }
+    ],
     "jsdoc/require-param-name": "error",
     "jsdoc/require-param-description": "error",
     "jsdoc/check-tag-names": "error",
