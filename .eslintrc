@@ -197,8 +197,6 @@
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "error",
-    "constructor-super": "error",
-
     "object-shorthand": [
       "error",
       "always",
