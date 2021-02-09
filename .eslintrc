@@ -261,8 +261,8 @@
         "contexts": [
           "ClassDeclaration",
           "ClassExpression",
-          "ClassProperty",
-          "MethodDefinition",
+          'ClassProperty:not([accessibility="private"])',
+          'MethodDefinition:not([accessibility="private"])',
           "ArrowFunctionExpression",
           "ExportNamedDeclaration",
           "FunctionDeclaration",
