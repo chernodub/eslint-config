@@ -1,6 +1,6 @@
 {
   "name": "@chernodub/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint configuration for typescript.",
   "publishConfig": {
     "access": "public"
@@ -22,12 +22,12 @@
   "author": "Viktor Chernodub",
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.11.0",
-    "@typescript-eslint/parser": "^4.11.0",
-    "eslint": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.9",
-    "typescript": "^4.1.3"
+    "eslint-plugin-jsdoc": "^32.3.0",
+    "typescript": "^4.2.4"
   },
   "devDependencies": {}
 }
