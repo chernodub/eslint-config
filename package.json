@@ -1,6 +1,6 @@
 {
   "name": "@chernodub/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint configuration for typescript.",
   "publishConfig": {
     "access": "public"
