@@ -388,8 +388,9 @@
       {
         "SwitchCase": 1,
         "ignoredNodes": [
-          // https://github.com/typescript-eslint/typescript-eslint/issues/1824
-          "TSTypeParameterInstantiation",
+          "TSTypeAliasDeclaration *",
+          "TSTypeParameterInstantiation > *",
+          "TSTypeAnnotation",
           "ArrowFunctionExpression Identifier",
           "ArrowFunctionExpression BlockStatement"
         ]

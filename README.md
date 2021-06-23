@@ -21,3 +21,7 @@ Then, create the `.eslintrc.json` in the directory of `package.json` and paste t
   "extends": "@chernodub/eslint-config"
 }
 ```
+
+### Useful stuff
+
+https://astexplorer.net/
