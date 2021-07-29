@@ -2,26 +2,15 @@
 
 ### Installation
 
-#### npm 6
+#### npm 7
 
-```bash
-npm i @typescript-eslint/eslint-plugin@4.28.0
-  @typescript-eslint/parser@4.28.0
-  eslint@7.29.0
-  eslint-plugin-import@2.23.4
-  eslint-plugin-jsdoc@35.4.0 -D
-```
+1.  ```bash
+    npm i -D @chernodub/eslint-config && echo "{ \"extends\": \"@chernodub/eslint-config\" }" > .eslintrc.json
+    ```
+2.  Add `"lint": "eslint src/**/*.ts --fix"` to `scripts` in your `package.json`
+3.  Run `npm run lint`
 
-### Usage
 
-Then, create the `.eslintrc.json` in the directory of `package.json` and paste there the following
-
-```json
-{
-  "extends": "@chernodub/eslint-config"
-}
-```
-
-### Useful stuff
+### Useful stuff for development
 
 https://astexplorer.net/
