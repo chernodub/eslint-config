@@ -180,12 +180,7 @@
     ],
     "lines-between-class-members": ["error", "always"],
     "max-depth": ["error", 3],
-    "max-len": [
-      "error",
-      {
-        "code": 140
-      }
-    ],
+    "max-len": ["error", { "code": 140, "ignorePattern": "^import .*" }],
     "max-lines": "off",
     "max-lines-per-function": ["error", 120],
     "max-params": "off",
