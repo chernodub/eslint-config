@@ -437,12 +437,12 @@
       "error",
       {
         "contexts": [
-          "MethodDefinition:not([accessibility='private'])",
           "ClassDeclaration",
-          "ClassProperty:not([accessibility='private'])",
           "TSEnumDeclaration",
           "ExportNamedDeclaration[declaration.type=\"TSInterfaceDeclaration\"]",
-          "TSInterfaceDeclaration :matches(TSCallSignatureDeclaration, TSMethodSignature, TSPropertySignature)"
+          "TSInterfaceDeclaration :matches(TSCallSignatureDeclaration, TSMethodSignature, TSPropertySignature)",
+          "MethodDefinition:not([accessibility='private'])",
+          "PropertyDefinition:not([accessibility='private'])"
         ],
         "checkConstructors": false,
         "checkGetters": true,
