@@ -296,49 +296,7 @@
     "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/consistent-type-definitions": "error",
     "@typescript-eslint/explicit-member-accessibility": "error",
-    "@typescript-eslint/member-ordering": [
-      "error",
-      {
-        "default": {
-          "memberTypes": [
-            "public-decorated-field",
-            "public-decorated-set",
-            "public-decorated-get",
-            "public-instance-field",
-            "public-static-field",
-            "public-abstract-field",
-            "public-field",
-            "public-set",
-            "public-get",
-            "protected-decorated-field",
-            "protected-decorated-set",
-            "protected-decorated-get",
-            "protected-instance-field",
-            "protected-static-field",
-            "protected-abstract-field",
-            "protected-field",
-            "protected-set",
-            "protected-get",
-            "private-decorated-field",
-            "private-decorated-set",
-            "private-decorated-get",
-            "private-instance-field",
-            "private-static-field",
-            "private-abstract-field",
-            "private-field",
-            "private-set",
-            "private-get",
-            "constructor",
-            "public-static-method",
-            "protected-static-method",
-            "private-static-method",
-            "public-method",
-            "protected-method",
-            "private-method"
-          ]
-        }
-      }
-    ],
+    "@typescript-eslint/member-ordering": "off",
     "@typescript-eslint/naming-convention": [
       "warn",
       {
