@@ -324,12 +324,7 @@
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "jsdoc/require-description-complete-sentence": [
-      "error",
-      {
-        "tags": ["see", "copyright"]
-      }
-    ],
+    "jsdoc/require-description-complete-sentence": "off",
     "jsdoc/require-param": [
       "error",
       {
