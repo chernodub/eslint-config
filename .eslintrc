@@ -406,22 +406,6 @@
     "jsdoc/check-alignment": "error",
     "jsdoc/newline-after-description": ["error", "never"],
     "jsdoc/no-bad-blocks": "error",
-    "jsdoc/require-jsdoc": [
-      "error",
-      {
-        "contexts": [
-          "ClassDeclaration",
-          "TSEnumDeclaration",
-          "ExportNamedDeclaration[declaration.type=\"TSInterfaceDeclaration\"]",
-          "TSInterfaceDeclaration :matches(TSCallSignatureDeclaration, TSMethodSignature, TSPropertySignature)",
-          "MethodDefinition:not([accessibility='private'])",
-          "PropertyDefinition:not([accessibility='private'])"
-        ],
-        "checkConstructors": false,
-        "checkGetters": true,
-        "checkSetters": true,
-        "enableFixer": false
-      }
-    ]
+    "jsdoc/require-jsdoc": "off"
   }
 }
