@@ -5,10 +5,9 @@
 #### npm 7
 
 1.  ```bash
-    npm i -D @chernodub/eslint-config && echo "{ \"extends\": \"@chernodub/eslint-config\" }" > .eslintrc.json
+    npm i -D @chernodub/eslint-config
     ```
-2.  Add `"lint": "eslint src/**/*.ts --fix"` to `scripts` in your `package.json`
-3.  Run `npm run lint`
+2.  Add `@chernodub/eslint-config` to `extends` of your eslint config
 
 
 ### Useful stuff for development
