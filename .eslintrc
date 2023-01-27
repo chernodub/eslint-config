@@ -158,12 +158,7 @@
         "before": true
       }
     ],
-    "line-comment-position": [
-      "error",
-      {
-        "position": "above"
-      }
-    ],
+    "line-comment-position": "off",
     "linebreak-style": ["error", "unix"],
     "lines-around-comment": [
       "error",
