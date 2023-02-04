@@ -1,6 +1,6 @@
 {
   "name": "@chernodub/eslint-config",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "typescript-only, framework-agnostic eslint config",
   "publishConfig": {
     "access": "public"
@@ -18,11 +18,28 @@
   ],
   "author": "Viktor Chernodub",
   "license": "MIT",
+  "scripts": {
+    "release": "release-it"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
     "eslint": "^8.33.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsdoc": "^39.8.0"
+  },
+  "devDependencies": {
+    "release-it": "*"
+  },
+  "release-it": {
+    "github": {
+      "release": false
+    },
+    "git": {
+      "tag": false
+    },
+    "npm": {
+      "publish": false
+    }
   }
 }
