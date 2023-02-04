@@ -1,7 +1,7 @@
 {
   "name": "@chernodub/eslint-config",
   "version": "3.0.3",
-  "description": "ESLint configuration for typescript.",
+  "description": "typescript-only, framework-agnostic eslint config",
   "publishConfig": {
     "access": "public"
   },
