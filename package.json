@@ -36,7 +36,8 @@
       "release": false
     },
     "git": {
-      "tag": false
+      "tag": false,
+      "commitMessage": "chore: release ${version}"
     },
     "npm": {
       "publish": false
