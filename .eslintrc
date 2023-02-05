@@ -196,7 +196,10 @@
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/no-type-alias": "off",
     "@typescript-eslint/no-magic-numbers": "off",
-    "@typescript-eslint/space-before-function-paren": ["error", "never"],
+    "@typescript-eslint/space-before-function-paren": [
+      "error",
+      { "anonymous": "always", "named": "never", "asyncArrow": "always" }
+    ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/prefer-readonly-parameter-types": "off",
     "@typescript-eslint/object-curly-spacing": ["error", "always"],
