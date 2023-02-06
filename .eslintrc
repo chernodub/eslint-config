@@ -273,6 +273,7 @@
     "@typescript-eslint/unbound-method": "off",
     "@typescript-eslint/init-declarations": "off",
     "jsdoc/require-description-complete-sentence": "off",
+    "@typescript-eslint/no-use-before-define": "off",
     "jsdoc/require-jsdoc": "off",
     "jsdoc/require-param": [
       "error",
