@@ -1,4 +1,4 @@
-# eslint-config for typescript
+# eslint-config for typescript ![npm badge](https://img.shields.io/npm/v/@chernodub/eslint-config)
 
 I use this configuration for my personal projects that are built with different frameworks. The configuration is quite strict, so you may want to disable some rules in your project.
 
