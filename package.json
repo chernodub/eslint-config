@@ -1,6 +1,6 @@
 {
   "name": "@chernodub/eslint-config",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "typescript-only, framework-agnostic eslint config",
   "publishConfig": {
     "access": "public"
